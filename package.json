@@ -5,23 +5,23 @@
     "@commitlint/cli": "^5.2.5",
     "@commitlint/config-conventional": "^5.2.3",
     "@commitlint/config-lerna-scopes": "^5.2.0",
-    "babel-eslint": "^8.0.3",
+    "availity-workflow-react": "^3.1.1",
+    "babel-eslint": "^8.2.2",
     "conventional-changelog": "^1.1.6",
     "conventional-recommended-bump": "^1.0.2",
-    "eslint": "^4.13.1",
+    "eslint": "^4.18.2",
     "eslint-config-airbnb": "^16.1.0",
     "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-config-availity": "^3.0.0-beta.10",
+    "eslint-config-availity": "^3.0.0-beta.11",
     "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-import": "^2.9.0",
     "eslint-plugin-jsx-a11y": "^6.0.3",
     "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-react": "^7.7.0",
     "husky": "^0.14.3",
     "jest": "^21.0.0",
     "lerna": "^2.2.0",
     "lint-staged": "^5.0.0",
-    "prettier": "^1.8.2"
   },
   "scripts": {
     "angular": "npm start --prefix packages/availity-angular-kit",
@@ -85,5 +85,11 @@
       "<rootDir>/packages/availity-react-kit/"
     ],
     "testRegex": ".*.spec.js$"
+  },
+  "dependencies": {
+    "availity-workflow": "^3.1.2"
+  },
+  "availityWorkflow": {
+    "plugin": "availity-workflow-react"
   }
 }
